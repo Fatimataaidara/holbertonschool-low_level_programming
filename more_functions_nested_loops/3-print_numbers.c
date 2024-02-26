@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * print_numbers - fonction qui imprime les chiffres de 0 à 9
+ * print_numbers - print numbers, from 0 to 9
  */
+
 void print_numbers(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i <= 9; i++)
+	for (n = 48; n < 58; n++)
 	{
-		printf("%d", i);
+		_putchar(n);
 	}
-	printf("\n");
+		_putchar('\n');
 }
