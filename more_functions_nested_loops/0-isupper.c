@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isupper Write a function that checks for uppercase character
- *@c:variable
- *Return: 1 if c is uppercase else 0 otherwise
+ * _isupper - function that checks for uppercase character
+ * @c:variable
+ * Return: 1 if c is uppercase else 0 otherwise
  */
 
 int _isupper(int c)
@@ -15,5 +15,4 @@ int _isupper(int c)
 	else
 	{
 		return (0);
-	}
-}	
+
